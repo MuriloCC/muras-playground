@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "email": "heloisa@gmail.com",
+      "password": "$2a$10$xDT2mbvkXwf38vI.jUCKoepPnDWqFngEe3jTPyhxC1dm/1YxgZbFm",
+      "id": "Om39r-f"
+    },
+    {
+      "email": "muras@gmail.com",
+      "password": "$2a$10$VyHDqT0Lgqrioc7/rQFCOeZO.bpJfRKF8.hhy59YpVgUN84YKX9Fy",
+      "name": "Murilo",
+      "lastname": "Castilho",
+      "address": {
+        "street": "Rua João Ribeiro de Barros",
+        "number": 407,
+        "neighborhood": "Vila Odim Antão",
+        "complement": null,
+        "zipcode": "18090602",
+        "city": "Sorocaba",
+        "state": "São Paulo"
+      },
+      "id": "mEC1y1l"
+    },
+    {
+      "email": "antonip@gmail.com",
+      "password": "$2a$10$DzuGjM7QSaV9WoM0ljuY4uWzXr9vGsDe8vwiqO5xcAjFWWEfzG43u",
+      "name": "Antonip",
+      "lastname": "Camargo",
+      "address": {
+        "street": "Rua asdfiuasdojif",
+        "number": 407,
+        "neighborhood": "Vila Trollhoes",
+        "complement": "perto de la",
+        "zipcode": "1809100",
+        "city": "Sorocaba",
+        "state": "São Paulo"
+      },
+      "id": "annXldY"
+    },
+    {
+      "email": "iago@gmail.com",
+      "password": "$2a$10$cMcqGnhvO.0rvMwsyu.HfOnK38i8AjCvpFnBEeT7emyVZC.5pNLTm",
+      "name": "cacetilds",
+      "lastname": "Putz",
+      "address": {
+        "street": "Rua ubirajara",
+        "number": 444,
+        "neighborhood": "Vila ioook",
+        "complement": "proximo ao superjooj",
+        "zipcode": "1809110",
+        "city": "Porto Feliz",
+        "state": "São Paulo"
+      },
+      "id": "7sqtnFj"
+    },
+    {
+      "email": "ruicosta@gmail.com",
+      "password": "$2a$10$QqkN296ikdp7jvhh8OLrdeYCHh9IoQy7NfcSTOBStqBR8ocwpemIG",
+      "name": "Rui costa",
+      "lastname": "gugigugiu",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "OcL-ynw"
+    },
+    {
+      "email": "asdasdasdasd@gmail.com",
+      "password": "$2a$10$o6kj5eis7zBQ9bGMou4ZzeSkUbgPRBAcly1AjZwSNg51oC3CFc2em",
+      "name": "ANSIDONSAOFNSDAOF",
+      "lastname": "gugigugiu",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "JjpD_en"
+    },
+    {
+      "email": "kiaracogo@gmail.com",
+      "password": "$2a$10$fZj2oBrV27TZssVmip8hueSMeTMBWBxpWObMUgfASgrzTPccK9PyK",
+      "name": "KIARAAAAA",
+      "lastname": "gugigugiu",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "Cq2rp-t"
+    },
+    {
+      "email": "Heloisacogo@gmail.com",
+      "password": "$2a$10$sJ8pb.gm9Ch1JydC5dtPruxQG70NQNpv7CvN97EoqrhefSrdvlbKO",
+      "name": "HELOOOOO",
+      "lastname": "gugigugiu",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "KLOY_KL"
+    },
+    {
+      "email": "ksdofkaspdfkasd@gmail.com",
+      "password": "$2a$10$N7ih8eGV1FAi2t5HKgTGlOErAgNC1F5Mgy9Dz7DroKKRAH13u2ppi",
+      "name": "KSAOPDFKSAOPKFPOSDA",
+      "lastname": "gugiaksdodskodskogugiu",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "py7NV6o"
+    },
+    {
+      "email": "halland@gmail.com",
+      "password": "$2a$10$3vzP00WI7PwjlfwYGKdQ2ugkArM28AqP4QzhQxJfzu6bo20jve02C",
+      "name": "halland",
+      "lastname": "incrivel",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "-efs71H"
+    },
+    {
+      "email": "joaogomes@gmail.com",
+      "password": "$2a$10$iF.UkGBir4JTY1luwcTVwuzT24ejwNipFh7lReJtqOtRNrVKUSTW2",
+      "name": "joao",
+      "lastname": "gomes",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "fML4ECu"
+    },
+    {
+      "email": "giga@gmail.com",
+      "password": "$2a$10$FC3vrcrnGEjq/sbPHz//bu3Mg/S/GaluImwrbeLERAKQfeHHAaAae",
+      "name": "giga",
+      "lastname": "Nunes",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "nBOlJZ9"
+    },
+    {
+      "email": "renatin@gmail.com",
+      "password": "$2a$10$/0WvoSey5xuu.8sgGPoUo.andzh.GqzDN.XM2b0hEyfSRjeRhmUHW",
+      "name": "Renato",
+      "lastname": "ALOALO",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "Tj7F6D9"
+    },
+    {
+      "email": "jsdifjspadofsadpfas@gmail.com",
+      "password": "$2a$10$SFWscRQoN02mdUNnchcuzemNusPGtE4ahsBNxhJ8LwCq3VDlODrAm",
+      "name": "skdjaiofsdaoif",
+      "lastname": "jjjiajjis",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "bHXI1AV"
+    },
+    {
+      "email": "askjdioajsiodjsaf@gmail.com",
+      "password": "$2a$10$tKsrZrrU39kv/sU5faVXzORD5mFlmUA72WzOmD0VGq.h6feIi4f9.",
+      "name": "skdjaiofsdaoif",
+      "lastname": "jjjiajjis",
+      "address": {
+        "street": "Rua santa",
+        "number": 444,
+        "neighborhood": "Vila thor",
+        "complement": "",
+        "zipcode": "18090620",
+        "city": "Tatui",
+        "state": "São Paulo"
+      },
+      "id": "1Zn7qOm"
+    }
+  ],
+  "cards": [
+    {
+      "ownerId": "Om39r-f",
+      "id": "c5d8a94f-2a87-427b-9687-a51c97ab442d",
+      "last4Digits": "3321",
+      "isBlocked": false,
+      "blockCode": ""
+    },
+    {
+      "ownerId": "0084cbec-e71e-4848-bc9f-44e86f079a14",
+      "id": "18c61d8e-036f-42c4-8eca-eae1ce857196",
+      "last4Digits": "1490",
+      "isBlocked": true,
+      "blockCode": "R"
+    }
+  ]
+}
