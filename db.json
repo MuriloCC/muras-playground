@@ -232,18 +232,28 @@
   ],
   "cards": [
     {
-      "ownerId": "Om39r-f",
-      "id": "c5d8a94f-2a87-427b-9687-a51c97ab442d",
-      "last4Digits": "3321",
-      "isBlocked": false,
-      "blockCode": ""
+      "ownerId": "mEC1y1l",
+      "cardName": "MURILO C CAMPOS",
+      "cardNumber": "1233487967885576",
+      "validThru": "06/31",
+      "cvc": "778",
+      "id": 1
     },
     {
-      "ownerId": "0084cbec-e71e-4848-bc9f-44e86f079a14",
-      "id": "18c61d8e-036f-42c4-8eca-eae1ce857196",
-      "last4Digits": "1490",
-      "isBlocked": true,
-      "blockCode": "R"
+      "ownerId": "mEC1y1l",
+      "cardName": "MURILO C CAMPOS",
+      "cardNumber": "5566780965432344",
+      "validThru": "07/29",
+      "cvc": "143",
+      "id": 2
+    }
+  ],
+  "account": [
+    {
+      "amount": 4000,
+      "ownerId": "mEC1y1l",
+      "document": "46831324860",
+      "id": 1
     }
   ]
 }

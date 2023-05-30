@@ -1,3 +1,4 @@
+import { StatusBar } from "expo-status-bar";
 import { NativeBaseProvider } from "native-base";
 import { QueryClientProvider } from "react-query";
 import { Provider } from "react-redux";
@@ -11,6 +12,7 @@ export default function App() {
     <QueryClientProvider client={queryClient}>
       <NativeBaseProvider>
         <Provider store={store}>
+          <StatusBar style="light" />
           <AppRoutes />
           <LoaderScreen />
         </Provider>
