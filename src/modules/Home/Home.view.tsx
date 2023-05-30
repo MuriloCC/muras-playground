@@ -35,6 +35,7 @@ export default function HomeView() {
       dispatch(handleAccountData(data[0]));
       return data[0];
     },
+    staleTime: 1000 * 60 * 10, //10 minutes,
   });
 
   function handleChangeShowAmountState() {

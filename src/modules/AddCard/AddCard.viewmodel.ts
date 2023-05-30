@@ -51,12 +51,25 @@ export default function useAddCardViewModel() {
   function handleOnSuccess() {
     toast.show({
       placement: 'top',
-      render: () => Toast({ message: "Cartão criado com sucesso!" as string, type: 'success' })
+      render: () => Toast({ message: "Cartão criado com sucesso!", type: 'success' })
     });
 
 
     queryClient.invalidateQueries(['get_user_cards'])
+
     navigation.navigate("HomeScreen")
+
+    // navigation.dispatch(
+    //   CommonActions.reset({
+    //     index: 1,
+    //     routes: [
+    //       {
+    //         name: "AddCard",
+    //       },
+    //       { name: "HomeScreen" },
+    //     ],
+    //   }),
+    // )
   }
 
   function handleOnError(error: ResponseErrorType) {
