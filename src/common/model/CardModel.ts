@@ -2,6 +2,7 @@ export interface CardModel {
   ownerId: string;
   ownerName: string;
   cardNumber: string;
-  cvc: number;
+  cvv: number;
   validThru: string;
+  id: number
 }

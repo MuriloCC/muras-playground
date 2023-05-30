@@ -5,6 +5,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { Keyboard } from "react-native";
 import { useMutation } from "react-query";
+import { ResponseErrorType } from "../../common/model/HttpModel";
 import { UserResponseModel } from "../../common/model/UserModel";
 import { Toast } from "../../components/Toast/Toast.view";
 import { useAppDispatch } from "../../redux/app/hooks";
@@ -12,7 +13,7 @@ import { hideLoader, showLoader } from "../../redux/global/globalSlice";
 import { handleUserData } from "../../redux/user/userSlice";
 import { users } from "../../services/user";
 import { signinSchema } from "./Forms/SigninForm/schema";
-import { FormDataProps, ResponseErrorType, SigninViewNavigationType } from "./Signin.model";
+import { FormDataProps, SigninViewNavigationType } from "./Signin.model";
 
 export default function useSigninViewModel() {
 

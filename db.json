@@ -232,20 +232,12 @@
   ],
   "cards": [
     {
+      "cvv": 778,
+      "validThru": "02/24",
+      "ownerName": "MURILO C CAMPOS",
+      "cardNumber": "1728371231283912",
       "ownerId": "mEC1y1l",
-      "cardName": "MURILO C CAMPOS",
-      "cardNumber": "1233487967885576",
-      "validThru": "06/31",
-      "cvc": "778",
       "id": 1
-    },
-    {
-      "ownerId": "mEC1y1l",
-      "cardName": "MURILO C CAMPOS",
-      "cardNumber": "5566780965432344",
-      "validThru": "07/29",
-      "cvc": "143",
-      "id": 2
     }
   ],
   "account": [

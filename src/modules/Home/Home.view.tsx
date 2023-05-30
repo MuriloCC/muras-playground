@@ -1,5 +1,6 @@
+import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
-import { Box, Heading, ScrollView, VStack } from "native-base";
+import { Box, Heading, Icon, ScrollView, Text, VStack } from "native-base";
 import { useQuery } from "react-query";
 import { Button } from "../../components/Button/Button.view";
 import { Header } from "../../components/Header/Header.view";
@@ -19,6 +20,7 @@ export default function HomeView() {
   const { data: getAllCardsData } = useQuery({
     queryKey: "get_user_cards",
     queryFn: () => cards.getAllUserCardsByOwnerId(userSelector.user.id),
+    staleTime: 1000 * 60 * 10, //10 minutes,
   });
 
   const {
@@ -33,7 +35,6 @@ export default function HomeView() {
       dispatch(handleAccountData(data[0]));
       return data[0];
     },
-    staleTime: Infinity,
   });
 
   function handleChangeShowAmountState() {
@@ -53,9 +54,16 @@ export default function HomeView() {
       <Box paddingX={6} flex={1} paddingTop={4} paddingBottom={8}>
         <Heading mb={3}>Meus Cartões</Heading>
         <ScrollView>
-          {getAllCardsData?.map((item, idx) => (
-            <CardItem key={idx} item={item.cardNumber} />
-          ))}
+          {getAllCardsData && getAllCardsData.length > 0 ? (
+            getAllCardsData?.map((item, idx) => (
+              <CardItem key={idx} item={item.cardNumber} />
+            ))
+          ) : (
+            <VStack flex={1} alignItems="center">
+              <Text fontSize="lg">Nenhum cartão cadastrado...</Text>
+              <Icon as={<FontAwesome name="list" />} size={7} />
+            </VStack>
+          )}
         </ScrollView>
 
         <Button

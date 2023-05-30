@@ -24,6 +24,7 @@ export function AddCardForm({
             keyboardType="number-pad"
             returnKeyType="done"
             maxLength={19}
+            errorMessage={errors.cardNumber?.message}
           />
         )}
       />
@@ -36,6 +37,7 @@ export function AddCardForm({
             onChangeText={(text) => onChange(text.toUpperCase())}
             placeholder="Nome do titular"
             returnKeyType="done"
+            errorMessage={errors.ownerName?.message}
           />
         )}
       />
@@ -53,6 +55,7 @@ export function AddCardForm({
                 returnKeyType="done"
                 keyboardType="numeric"
                 maxLength={5}
+                errorMessage={errors.validThru?.message}
               />
             )}
           />
@@ -64,19 +67,24 @@ export function AddCardForm({
             name="cvv"
             render={({ field: { value, onChange } }) => (
               <Input
-                value={value}
-                onChangeText={(text) => onChange(creditCardNumberMask(text))}
+                value={value?.toString()}
+                onChangeText={onChange}
                 placeholder="CVV"
                 keyboardType="number-pad"
                 returnKeyType="done"
                 maxLength={3}
+                errorMessage={errors.cvv?.message}
               />
             )}
           />
         </Box>
       </HStack>
 
-      <Button title="Adicionar" titleColor="white" />
+      <Button
+        onPress={handleSubmit(submitForm)}
+        title="Adicionar"
+        titleColor="white"
+      />
     </>
   );
 }

@@ -7,5 +7,3 @@ export type FormDataProps = {
   email: string;
   password: string;
 };
-
-export type ResponseErrorType = { response: { data: any } }
