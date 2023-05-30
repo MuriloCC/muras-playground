@@ -12,9 +12,12 @@ export const slice = createSlice({
     hideLoader(state) {
       return { ...state, loaderScreen: false };
     },
+    changeShowAmountState(state) {
+      return { ...state, amountVisibility: !state.amountVisibility }
+    }
   }
 });
 
-export const { showLoader, hideLoader } = slice.actions
+export const { showLoader, hideLoader, changeShowAmountState } = slice.actions
 
 export default slice.reducer

@@ -8,11 +8,10 @@ export interface UserModel {
   id: string
 }
 
-export interface UserResponseModel extends UserModel {
+export interface UserResponseModel {
+  user: UserModel
   accessToken: string
 }
 
-export interface UserStateModel extends UserModel {
-  accessToken: string,
-  isLogged: boolean
+export interface UserStateModel extends UserResponseModel {
 }
